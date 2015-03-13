@@ -1,0 +1,25 @@
+{
+  "name": "playlist-downloader",
+  "version": "0.0.1",
+  "description": "Parses track information from a playlist in Spotify and attempts to download similar tracks from external sources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabriel-simonetti/playlist-downloader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriel-simonetti/playlist-downloader/issues"
+  },
+  "homepage": "https://github.com/gabriel-simonetti/playlist-downloader",
+  "dependencies": {
+    "progress": "^1.1.8",
+    "sanitize-filename": "^1.1.5",
+    "spotify-playlist": "0.0.2",
+    "thaletas": "^2.0.1"
+  }
+}
